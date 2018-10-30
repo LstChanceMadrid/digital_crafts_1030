@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Add Trip</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <header>
+        <h1>Hi! I am the trip adding page!</h1>
+        </header>
+
+        <main>
+            <form action="/add-trip" method="POST">
+                <label>Add Trip: </label>
+                <input type="text" name="tripTitle" placeholder="Enter trip title" />
+                <input type="text" name="tripImage" placeholder="Enter image" />
+                <input type="text" name="tripDepartureDate" placeholder="Enter departure date" />
+                <input type="text" name="tripReturnDate" placeholder="Enter return date" />
+                <input type="submit" />
+            </form>
+        </main>
+
+        <footer>
+                    <label>Add Trips</label>
+            <a href="/add-trip">Go</a>
+
+
+
+            <label>Trip History</label>
+            <a href="/trips">Go</a>
+        </footer>
+    </body>
+
+    <script src=""></script>
+</html>
