@@ -11,6 +11,8 @@ const PORT = 3000;
 
 let trips = []
 
+app.use(express.static('css'))
+
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // the engine template that will be used
